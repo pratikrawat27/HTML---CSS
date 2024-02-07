@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <style>
+        div {
+            width: 200px;
+            height: 310px;
+            border: none;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+        }
+
+        img {
+            width: 200px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .name {
+            font-weight: bold;
+            padding-left: 10px;
+            margin-top: 2px;
+            font-size: 20px;
+        }
+
+        .mutual {
+            padding-left: 10px;
+            margin-top: -15px;
+            color: rgb(136, 136, 136);
+            margin-bottom: 0;
+        }
+
+        button {
+            margin-left: 10px;
+            margin-top: 8px;
+            border: none;
+            background-color: #228dd4;
+            color: white;
+            border-radius: 3px;
+            padding: 8px 19px;
+            cursor: pointer;
+            transition: background-color .15s, opacity .15s;
+        }
+
+        button:hover {
+            background-color: #1d79b6;
+        }
+
+        button:active {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="/css/image/kitty-cat-kitten-pet-45201.jpeg" alt="cat">
+        <p class="name">Oliver</p>
+        <p class="mutual">2 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+</body>
+
+</html>

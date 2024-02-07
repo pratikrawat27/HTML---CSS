@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <style>
+        div {
+            width: 200px;
+            height: 310px;
+            border: none;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, .7);
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 40px;
+        }
+
+        #one {
+            margin-left: 20%;
+        }
+
+        img {
+            width: 200px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .name {
+            font-weight: bold;
+            padding-left: 10px;
+            margin-top: 2px;
+            font-size: 20px;
+        }
+
+        .mutual {
+            padding-left: 10px;
+            margin-top: -15px;
+            color: rgb(136, 136, 136);
+            margin-bottom: 0;
+        }
+
+        button {
+            margin-left: 10px;
+            margin-top: 8px;
+            border: none;
+            background-color: #228dd4;
+            color: white;
+            border-radius: 3px;
+            padding: 8px 19px;
+            cursor: pointer;
+            transition: background-color .15s, opacity .15s;
+        }
+
+        button:hover {
+            background-color: #1d79b6;
+        }
+
+        button:active {
+            opacity: 0.7;
+        }
+
+        #img {
+            object-fit: cover;
+            height: 210px;
+        }
+
+        #img3 {
+            object-fit: cover;
+            height: 210px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="one">
+        <img src="/css/image/kitty-cat-kitten-pet-45201.jpeg" alt="cat">
+        <p class="name">Mamata Didi</p>
+        <p class="mutual">2 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+    <div>
+        <img id="img" src="/css/image/photo-1606208427954-aa8319c4815e.avif" alt="cat">
+        <p class="name">Modi</p>
+        <p class="mutual">8 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+    <div>
+        <img id="img3" src="/css/image/pexels-photo-1359300.jpeg" alt="cat">
+        <p class="name">Baba Ram Dev</p>
+        <p class="mutual">1 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+</body>
+
+</html>
