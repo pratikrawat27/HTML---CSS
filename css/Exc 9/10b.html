@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .container {
+            width: 200px;
+            height: 330px;
+            border: none;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+        }
+
+        .img1{
+            width: 200px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .img2 {
+            width: 40px;
+            border-radius: 50%;
+            margin-top: -6px;
+        }
+
+        .info {
+            margin-left: 10px;
+            margin-top: 2px;
+        }
+
+        .circle_img {
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .mutual {
+            margin-left: 45px;
+            margin-top: -35px;
+            color: rgb(160, 153, 153);
+        }
+
+        button {
+            margin-top: 20px;
+            border: 0;
+            background-color: rgb(21, 129, 231);
+            color: white;
+            padding: 8px 8px;
+            border-radius: 4px;
+            width: 120px;
+        }
+
+        .bottom {
+            margin-top: 10px;
+        } 
+
+        .name {
+            font-weight: bold;
+            font-size: large;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cat_img">
+            <img class="img1" src="/css/image/kitty-cat-kitten-pet-45201.jpeg" alt="cat">
+        </div>
+        <div class="info">
+            <div>
+                <p class="name">Oliver</p>
+            </div>
+            <div class="bottom">
+                <div class="circle_img">
+                    <img class="img2" src="/css/image/kitty-cat-kitten-pet-45201.jpeg" alt="cat"></div>
+                <div>
+                    <p class="mutual">2 mutual friends</p>
+                </div>
+            </div>
+            <div> 
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
