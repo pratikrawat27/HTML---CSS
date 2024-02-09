@@ -5,8 +5,7 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 #search {
@@ -15,22 +14,13 @@ p {
     display: block;
 }
 
-.video-prev {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 15px;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .channel_pic {
-    display: inline-block;
-    width: 50px;
     vertical-align: top;
-}
-
-.video_info {
-    display: inline-block;
-    width: 200px;
 }
 
 .profile-pic {
@@ -58,4 +48,11 @@ p {
 
 .video-aut {
     margin-bottom: 4px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 30px;
 }

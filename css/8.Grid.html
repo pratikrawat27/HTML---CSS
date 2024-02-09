@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: grid; grid-template-columns: 100px 100px;"> <!-- how wide our grid column are -->
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightcoral;">div2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 10px;"> 
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightcoral;">div2</div>
+        <div style="background-color: lightcoral;">div3</div>
+        <div style="background-color: lightcoral;">div4</div> <!-- It will wrap around -->
+    </div>
+    <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 10px;"> <!-- fr will take remaining amt of space-->
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightcoral;">div2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 100px 1fr 1fr; margin-top: 10px;"> <!-- fr will take remaining amt of space-->
+        <div style="background-color: lightblue;">div1</div> <!--- 1fr 1fr it will take equal amt of space--->
+        <div style="background-color: lightcoral;">div2</div>
+        <div style="background-color: lightgreen;">div3</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 10px; column-gap: 20px; row-gap: 40px;"> 
+        <div style="background-color: lightblue; height: 200px;">div1</div> 
+        <div style="background-color: lightcoral; height: 200px">div2</div>
+        <div style="background-color: lightgreen; height: 200px">div3</div>
+        <div style="background-color: lightgreen; height: 200px;">div1</div> 
+        <div style="background-color: lightblue; height: 200px">div2</div>
+        <div style="background-color: lightcoral; height: 200px">div3</div>
+    </div>
+</body>
+</html>
